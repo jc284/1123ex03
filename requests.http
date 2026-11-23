@@ -1,0 +1,5 @@
+@baseUrl = https://jsonplaceholder.typicode.com
+
+### 할 일 한 건 조회 · 200 OK, id 1과 title이 담긴 객체
+GET {{baseUrl}}/todos/1
+Accept: application/json
